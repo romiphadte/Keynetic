@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63D6339117515EE5005B1474 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339017515EE5005B1474 /* LearningViewController.m */; };
+		63D6339417515F41005B1474 /* MotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339317515F41005B1474 /* MotionData.m */; };
+		63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D633971751641F005B1474 /* MotionDataAnalyzer.mm */; };
+		63D6339A17516B36005B1474 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339917516B36005B1474 /* opencv2.framework */; };
+		63D633A317516B88005B1474 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339B17516B87005B1474 /* Accelerate.framework */; };
+		63D633A417516B88005B1474 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339C17516B87005B1474 /* AssetsLibrary.framework */; };
+		63D633A517516B88005B1474 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339D17516B87005B1474 /* AVFoundation.framework */; };
+		63D633A617516B88005B1474 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339E17516B87005B1474 /* CoreImage.framework */; };
+		63D633A717516B88005B1474 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D6339F17516B87005B1474 /* CoreMedia.framework */; };
+		63D633A817516B88005B1474 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D633A017516B87005B1474 /* CoreVideo.framework */; };
+		63D633A917516B88005B1474 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D633A117516B88005B1474 /* QuartzCore.framework */; };
+		63D633AA17516B88005B1474 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D633A217516B88005B1474 /* Social.framework */; };
 		63E9C2C41750B50800AD2F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C31750B50800AD2F69 /* UIKit.framework */; };
 		63E9C2C61750B50800AD2F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C51750B50800AD2F69 /* Foundation.framework */; };
 		63E9C2C81750B50800AD2F69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C71750B50800AD2F69 /* CoreGraphics.framework */; };
@@ -17,7 +29,7 @@
 		63E9C2D81750B50800AD2F69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2D71750B50800AD2F69 /* Default@2x.png */; };
 		63E9C2DA1750B50800AD2F69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2D91750B50800AD2F69 /* Default-568h@2x.png */; };
 		63E9C2DD1750B50800AD2F69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */; };
-		63E9C2E01750B50800AD2F69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2DF1750B50800AD2F69 /* ViewController.m */; };
+		63E9C2E01750B50800AD2F69 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2DF1750B50800AD2F69 /* HomeViewController.m */; };
 		63E9C2E81750B50900AD2F69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2E71750B50900AD2F69 /* SenTestingKit.framework */; };
 		63E9C2E91750B50900AD2F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C31750B50800AD2F69 /* UIKit.framework */; };
 		63E9C2EA1750B50900AD2F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C51750B50800AD2F69 /* Foundation.framework */; };
@@ -36,6 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63D6338F17515EE5005B1474 /* LearningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
+		63D6339017515EE5005B1474 /* LearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
+		63D6339217515F41005B1474 /* MotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionData.h; sourceTree = "<group>"; };
+		63D6339317515F41005B1474 /* MotionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionData.m; sourceTree = "<group>"; };
+		63D633961751641F005B1474 /* MotionDataAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionDataAnalyzer.h; sourceTree = "<group>"; };
+		63D633971751641F005B1474 /* MotionDataAnalyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MotionDataAnalyzer.mm; sourceTree = "<group>"; };
+		63D6339917516B36005B1474 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		63D6339B17516B87005B1474 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		63D6339C17516B87005B1474 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		63D6339D17516B87005B1474 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63D6339E17516B87005B1474 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		63D6339F17516B87005B1474 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		63D633A017516B87005B1474 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		63D633A117516B88005B1474 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63D633A217516B88005B1474 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		63E9C2C01750B50800AD2F69 /* Keynetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keynetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9C2C31750B50800AD2F69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63E9C2C51750B50800AD2F69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +77,8 @@
 		63E9C2D71750B50800AD2F69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63E9C2D91750B50800AD2F69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63E9C2DC1750B50800AD2F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		63E9C2DE1750B50800AD2F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63E9C2DF1750B50800AD2F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63E9C2DE1750B50800AD2F69 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		63E9C2DF1750B50800AD2F69 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		63E9C2E61750B50900AD2F69 /* KeyneticTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyneticTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9C2E71750B50900AD2F69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		63E9C2EF1750B50900AD2F69 /* KeyneticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyneticTests-Info.plist"; sourceTree = "<group>"; };
@@ -65,9 +92,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E9C2C41750B50800AD2F69 /* UIKit.framework in Frameworks */,
-				63E9C2C61750B50800AD2F69 /* Foundation.framework in Frameworks */,
+				63D633A317516B88005B1474 /* Accelerate.framework in Frameworks */,
+				63D633A417516B88005B1474 /* AssetsLibrary.framework in Frameworks */,
+				63D633A517516B88005B1474 /* AVFoundation.framework in Frameworks */,
+				63D633A617516B88005B1474 /* CoreImage.framework in Frameworks */,
+				63D633A717516B88005B1474 /* CoreMedia.framework in Frameworks */,
+				63D633A817516B88005B1474 /* CoreVideo.framework in Frameworks */,
+				63D633A917516B88005B1474 /* QuartzCore.framework in Frameworks */,
+				63D633AA17516B88005B1474 /* Social.framework in Frameworks */,
 				63E9C2C81750B50800AD2F69 /* CoreGraphics.framework in Frameworks */,
+				63E9C2C61750B50800AD2F69 /* Foundation.framework in Frameworks */,
+				63E9C2C41750B50800AD2F69 /* UIKit.framework in Frameworks */,
+				63D6339A17516B36005B1474 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +120,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63D6338D17515E59005B1474 /* MyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				63D6339217515F41005B1474 /* MotionData.h */,
+				63D6339317515F41005B1474 /* MotionData.m */,
+				63D633961751641F005B1474 /* MotionDataAnalyzer.h */,
+				63D633971751641F005B1474 /* MotionDataAnalyzer.mm */,
+			);
+			name = MyClasses;
+			sourceTree = "<group>";
+		};
+		63D6338E17515E60005B1474 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2DE1750B50800AD2F69 /* HomeViewController.h */,
+				63E9C2DF1750B50800AD2F69 /* HomeViewController.m */,
+				63D6338F17515EE5005B1474 /* LearningViewController.h */,
+				63D6339017515EE5005B1474 /* LearningViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		63E9C2B71750B50800AD2F69 = {
 			isa = PBXGroup;
 			children = (
+				63D6339B17516B87005B1474 /* Accelerate.framework */,
+				63D6339C17516B87005B1474 /* AssetsLibrary.framework */,
+				63D6339D17516B87005B1474 /* AVFoundation.framework */,
+				63D6339E17516B87005B1474 /* CoreImage.framework */,
+				63D6339F17516B87005B1474 /* CoreMedia.framework */,
+				63D633A017516B87005B1474 /* CoreVideo.framework */,
+				63D633A117516B88005B1474 /* QuartzCore.framework */,
+				63D633A217516B88005B1474 /* Social.framework */,
 				63E9C2C91750B50800AD2F69 /* Keynetic */,
 				63E9C2ED1750B50900AD2F69 /* KeyneticTests */,
 				63E9C2C21750B50800AD2F69 /* Frameworks */,
@@ -106,6 +172,7 @@
 		63E9C2C21750B50800AD2F69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63D6339917516B36005B1474 /* opencv2.framework */,
 				63E9C2C31750B50800AD2F69 /* UIKit.framework */,
 				63E9C2C51750B50800AD2F69 /* Foundation.framework */,
 				63E9C2C71750B50800AD2F69 /* CoreGraphics.framework */,
@@ -117,11 +184,11 @@
 		63E9C2C91750B50800AD2F69 /* Keynetic */ = {
 			isa = PBXGroup;
 			children = (
+				63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */,
 				63E9C2D21750B50800AD2F69 /* AppDelegate.h */,
 				63E9C2D31750B50800AD2F69 /* AppDelegate.m */,
-				63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */,
-				63E9C2DE1750B50800AD2F69 /* ViewController.h */,
-				63E9C2DF1750B50800AD2F69 /* ViewController.m */,
+				63D6338E17515E60005B1474 /* ViewControllers */,
+				63D6338D17515E59005B1474 /* MyClasses */,
 				63E9C2CA1750B50800AD2F69 /* Supporting Files */,
 			);
 			path = Keynetic;
@@ -272,7 +339,10 @@
 			files = (
 				63E9C2D01750B50800AD2F69 /* main.m in Sources */,
 				63E9C2D41750B50800AD2F69 /* AppDelegate.m in Sources */,
-				63E9C2E01750B50800AD2F69 /* ViewController.m in Sources */,
+				63E9C2E01750B50800AD2F69 /* HomeViewController.m in Sources */,
+				63D6339117515EE5005B1474 /* LearningViewController.m in Sources */,
+				63D6339417515F41005B1474 /* MotionData.m in Sources */,
+				63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +453,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
@@ -398,6 +472,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
@@ -461,6 +539,7 @@
 				63E9C2FA1750B50900AD2F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E9C2FB1750B50900AD2F69 /* Build configuration list for PBXNativeTarget "KeyneticTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +548,7 @@
 				63E9C2FD1750B50900AD2F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
