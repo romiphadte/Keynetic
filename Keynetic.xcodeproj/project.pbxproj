@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E9C2C41750B50800AD2F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C31750B50800AD2F69 /* UIKit.framework */; };
+		63E9C2C61750B50800AD2F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C51750B50800AD2F69 /* Foundation.framework */; };
+		63E9C2C81750B50800AD2F69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C71750B50800AD2F69 /* CoreGraphics.framework */; };
+		63E9C2CE1750B50800AD2F69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2CC1750B50800AD2F69 /* InfoPlist.strings */; };
+		63E9C2D01750B50800AD2F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2CF1750B50800AD2F69 /* main.m */; };
+		63E9C2D41750B50800AD2F69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2D31750B50800AD2F69 /* AppDelegate.m */; };
+		63E9C2D61750B50800AD2F69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2D51750B50800AD2F69 /* Default.png */; };
+		63E9C2D81750B50800AD2F69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2D71750B50800AD2F69 /* Default@2x.png */; };
+		63E9C2DA1750B50800AD2F69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2D91750B50800AD2F69 /* Default-568h@2x.png */; };
+		63E9C2DD1750B50800AD2F69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */; };
+		63E9C2E01750B50800AD2F69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2DF1750B50800AD2F69 /* ViewController.m */; };
+		63E9C2E81750B50900AD2F69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2E71750B50900AD2F69 /* SenTestingKit.framework */; };
+		63E9C2E91750B50900AD2F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C31750B50800AD2F69 /* UIKit.framework */; };
+		63E9C2EA1750B50900AD2F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9C2C51750B50800AD2F69 /* Foundation.framework */; };
+		63E9C2F21750B50900AD2F69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63E9C2F01750B50900AD2F69 /* InfoPlist.strings */; };
+		63E9C2F51750B50900AD2F69 /* KeyneticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9C2F41750B50900AD2F69 /* KeyneticTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E9C2EB1750B50900AD2F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E9C2B81750B50800AD2F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E9C2BF1750B50800AD2F69;
+			remoteInfo = Keynetic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63E9C2C01750B50800AD2F69 /* Keynetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keynetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E9C2C31750B50800AD2F69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63E9C2C51750B50800AD2F69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63E9C2C71750B50800AD2F69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63E9C2CB1750B50800AD2F69 /* Keynetic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keynetic-Info.plist"; sourceTree = "<group>"; };
+		63E9C2CD1750B50800AD2F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63E9C2CF1750B50800AD2F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63E9C2D11750B50800AD2F69 /* Keynetic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keynetic-Prefix.pch"; sourceTree = "<group>"; };
+		63E9C2D21750B50800AD2F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63E9C2D31750B50800AD2F69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63E9C2D51750B50800AD2F69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63E9C2D71750B50800AD2F69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63E9C2D91750B50800AD2F69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63E9C2DC1750B50800AD2F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63E9C2DE1750B50800AD2F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63E9C2DF1750B50800AD2F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63E9C2E61750B50900AD2F69 /* KeyneticTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyneticTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E9C2E71750B50900AD2F69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		63E9C2EF1750B50900AD2F69 /* KeyneticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyneticTests-Info.plist"; sourceTree = "<group>"; };
+		63E9C2F11750B50900AD2F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63E9C2F31750B50900AD2F69 /* KeyneticTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyneticTests.h; sourceTree = "<group>"; };
+		63E9C2F41750B50900AD2F69 /* KeyneticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyneticTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E9C2BD1750B50800AD2F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2C41750B50800AD2F69 /* UIKit.framework in Frameworks */,
+				63E9C2C61750B50800AD2F69 /* Foundation.framework in Frameworks */,
+				63E9C2C81750B50800AD2F69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9C2E21750B50900AD2F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2E81750B50900AD2F69 /* SenTestingKit.framework in Frameworks */,
+				63E9C2E91750B50900AD2F69 /* UIKit.framework in Frameworks */,
+				63E9C2EA1750B50900AD2F69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E9C2B71750B50800AD2F69 = {
+			isa = PBXGroup;
+			children = (
+				63E9C2C91750B50800AD2F69 /* Keynetic */,
+				63E9C2ED1750B50900AD2F69 /* KeyneticTests */,
+				63E9C2C21750B50800AD2F69 /* Frameworks */,
+				63E9C2C11750B50800AD2F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E9C2C11750B50800AD2F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2C01750B50800AD2F69 /* Keynetic.app */,
+				63E9C2E61750B50900AD2F69 /* KeyneticTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E9C2C21750B50800AD2F69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2C31750B50800AD2F69 /* UIKit.framework */,
+				63E9C2C51750B50800AD2F69 /* Foundation.framework */,
+				63E9C2C71750B50800AD2F69 /* CoreGraphics.framework */,
+				63E9C2E71750B50900AD2F69 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E9C2C91750B50800AD2F69 /* Keynetic */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2D21750B50800AD2F69 /* AppDelegate.h */,
+				63E9C2D31750B50800AD2F69 /* AppDelegate.m */,
+				63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */,
+				63E9C2DE1750B50800AD2F69 /* ViewController.h */,
+				63E9C2DF1750B50800AD2F69 /* ViewController.m */,
+				63E9C2CA1750B50800AD2F69 /* Supporting Files */,
+			);
+			path = Keynetic;
+			sourceTree = "<group>";
+		};
+		63E9C2CA1750B50800AD2F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2CB1750B50800AD2F69 /* Keynetic-Info.plist */,
+				63E9C2CC1750B50800AD2F69 /* InfoPlist.strings */,
+				63E9C2CF1750B50800AD2F69 /* main.m */,
+				63E9C2D11750B50800AD2F69 /* Keynetic-Prefix.pch */,
+				63E9C2D51750B50800AD2F69 /* Default.png */,
+				63E9C2D71750B50800AD2F69 /* Default@2x.png */,
+				63E9C2D91750B50800AD2F69 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E9C2ED1750B50900AD2F69 /* KeyneticTests */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2F31750B50900AD2F69 /* KeyneticTests.h */,
+				63E9C2F41750B50900AD2F69 /* KeyneticTests.m */,
+				63E9C2EE1750B50900AD2F69 /* Supporting Files */,
+			);
+			path = KeyneticTests;
+			sourceTree = "<group>";
+		};
+		63E9C2EE1750B50900AD2F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E9C2EF1750B50900AD2F69 /* KeyneticTests-Info.plist */,
+				63E9C2F01750B50900AD2F69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E9C2BF1750B50800AD2F69 /* Keynetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E9C2F81750B50900AD2F69 /* Build configuration list for PBXNativeTarget "Keynetic" */;
+			buildPhases = (
+				63E9C2BC1750B50800AD2F69 /* Sources */,
+				63E9C2BD1750B50800AD2F69 /* Frameworks */,
+				63E9C2BE1750B50800AD2F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keynetic;
+			productName = Keynetic;
+			productReference = 63E9C2C01750B50800AD2F69 /* Keynetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E9C2E51750B50900AD2F69 /* KeyneticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E9C2FB1750B50900AD2F69 /* Build configuration list for PBXNativeTarget "KeyneticTests" */;
+			buildPhases = (
+				63E9C2E11750B50900AD2F69 /* Sources */,
+				63E9C2E21750B50900AD2F69 /* Frameworks */,
+				63E9C2E31750B50900AD2F69 /* Resources */,
+				63E9C2E41750B50900AD2F69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E9C2EC1750B50900AD2F69 /* PBXTargetDependency */,
+			);
+			name = KeyneticTests;
+			productName = KeyneticTests;
+			productReference = 63E9C2E61750B50900AD2F69 /* KeyneticTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E9C2B81750B50800AD2F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = keynetic;
+			};
+			buildConfigurationList = 63E9C2BB1750B50800AD2F69 /* Build configuration list for PBXProject "Keynetic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63E9C2B71750B50800AD2F69;
+			productRefGroup = 63E9C2C11750B50800AD2F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E9C2BF1750B50800AD2F69 /* Keynetic */,
+				63E9C2E51750B50900AD2F69 /* KeyneticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E9C2BE1750B50800AD2F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2CE1750B50800AD2F69 /* InfoPlist.strings in Resources */,
+				63E9C2D61750B50800AD2F69 /* Default.png in Resources */,
+				63E9C2D81750B50800AD2F69 /* Default@2x.png in Resources */,
+				63E9C2DA1750B50800AD2F69 /* Default-568h@2x.png in Resources */,
+				63E9C2DD1750B50800AD2F69 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9C2E31750B50900AD2F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2F21750B50900AD2F69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63E9C2E41750B50900AD2F69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E9C2BC1750B50800AD2F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2D01750B50800AD2F69 /* main.m in Sources */,
+				63E9C2D41750B50800AD2F69 /* AppDelegate.m in Sources */,
+				63E9C2E01750B50800AD2F69 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9C2E11750B50900AD2F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E9C2F51750B50900AD2F69 /* KeyneticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E9C2EC1750B50900AD2F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E9C2BF1750B50800AD2F69 /* Keynetic */;
+			targetProxy = 63E9C2EB1750B50900AD2F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63E9C2CC1750B50800AD2F69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E9C2CD1750B50800AD2F69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E9C2DC1750B50800AD2F69 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		63E9C2F01750B50900AD2F69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E9C2F11750B50900AD2F69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E9C2F61750B50900AD2F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63E9C2F71750B50900AD2F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E9C2F91750B50900AD2F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
+				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63E9C2FA1750B50900AD2F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
+				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63E9C2FC1750B50900AD2F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Keynetic.app/Keynetic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
+				INFOPLIST_FILE = "KeyneticTests/KeyneticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63E9C2FD1750B50900AD2F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Keynetic.app/Keynetic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
+				INFOPLIST_FILE = "KeyneticTests/KeyneticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E9C2BB1750B50800AD2F69 /* Build configuration list for PBXProject "Keynetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E9C2F61750B50900AD2F69 /* Debug */,
+				63E9C2F71750B50900AD2F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E9C2F81750B50900AD2F69 /* Build configuration list for PBXNativeTarget "Keynetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E9C2F91750B50900AD2F69 /* Debug */,
+				63E9C2FA1750B50900AD2F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63E9C2FB1750B50900AD2F69 /* Build configuration list for PBXNativeTarget "KeyneticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E9C2FC1750B50900AD2F69 /* Debug */,
+				63E9C2FD1750B50900AD2F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E9C2B81750B50800AD2F69 /* Project object */;
+}

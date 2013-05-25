@@ -1,0 +1,446 @@
+TKeynetic
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist
+cProcessPCH /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7s
+cGenerateDSYMFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+cCopyStringsFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png
+cCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.png
+cCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.png
+cCompileStoryboard /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+cProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+cTouch /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+cCodeSign /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005102E2A90000000000000110
+t1359143593
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000051088EFC00000000000001A7
+t1359515388
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000051088EFC00000000000001E5
+t1359515388
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051088EFF0000000000322700
+t1359515391
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051088F00000000000062AD10
+t1359515392
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000051088F0000000000000015F7
+t1359515392
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000051088F020000000000000E8D
+t1359515394
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051088F0400000000011BCDF0
+t1359515396
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c0000000051088F090000000000001B73
+t1359515401
+s7027
+
+N/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision
+c0000000050FC89FD0000000000001E2A
+t1358727677
+s7722
+
+N/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision
+c0000000050215D0F0000000000001CE4
+t1344363791
+s7396
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+t1369472846
+s416
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/Keynetic.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o
+t1369472751
+s85840
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/Keynetic.LinkFileList
+c0000000051A07EE60000000000000209
+t1369472742
+s521
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o
+t1369472750
+s74932
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o
+t1369472750
+s3428
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-afhxovcgphzvdjbpjnourvvjroxk/Keynetic-Prefix.pch.pth
+t2
+s0
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth
+t1369472747
+s4607072
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+t1369472847
+s408
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM
+t1369472846
+s102
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png
+t1369472765
+s7014
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png
+t1369472765
+s3688
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png
+t1369472765
+s6316
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist
+t1369472742
+s1002
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+t1369472847
+s32528
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PkgInfo
+t1369472743
+s8
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+t1369472742
+s485
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+t1369472846
+s7722
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings
+t1369472763
+s42
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/MainStoryboard.storyboardc
+t1369472766
+s170
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.h
+c0000000051A07D880000000000000116
+t1369472392
+s278
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m
+c0000000051A07D8800000000000007D8
+t1369472392
+s2008
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Keynetic-Prefix.pch
+c0000000051A07D88000000000000013F
+t1369472392
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.h
+c0000000051A07DDA0000000000000158
+t1369472474
+s344
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m
+c0000000051A07E87000000000000035D
+t1369472647
+s861
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/InfoPlist.strings
+c0000000051A07D88000000000000002D
+t1369472392
+s45
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+c0000000051A07D880000000000000603
+t1369472392
+s1539
+
+N/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m
+c0000000051A07D880000000000000151
+t1369472392
+s337
+
+NKeynetic/Keynetic-Info.plist
+c0000000051A0806F0000000000000464
+t1369473135
+s1124
+
+CBuild AST from /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m
+r0
+
+CBuild AST from /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m
+r0
+
+CBuild AST from /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfe659ff6b750b741^d063c4f6b750b741^---0#1#0#--18"Check dependencies36"AA418DB2-4E7E-4F4F-8875-8D52A6E43D63-
+
+CCodeSign /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+s391165943.036053
+e391165943.747172
+r1
+xCodeSign
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+o/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CodeSign DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.appd74d09f7b750b741^8447bff7b750b741^-146"/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/0000000000000000^975"CodeSign DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 2bf50adebe24641f7f5c5b81eedeba2d86153bf4 --resource-rules=/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist --entitlements /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"AC477F04-47B3-401F-9D29-6A7CAB4E1E2D-
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/ViewController.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391165548.249822
+e391165551.672894
+r1
+xCompileC
+xDerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m4626406cb650b741^9a41ac6fb650b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m0000000000000000^3906"CompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o Keynetic/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7s -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos -include /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/AppDelegate.m -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/AppDelegate.o36"3F5B69DA-5038-40A8-8C48-1433A4C567D5-
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391165548.250361
+e391165551.672501
+r1
+xCompileC
+xDerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o
+x/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m274c406cb650b741^0b28ac6fb650b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m0000000000000000^3924"CompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o Keynetic/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7s -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos -include /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.dia -c /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/ViewController.m -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/ViewController.o36"035F9654-5B34-4282-A543-FE569E611132-
+
+CCompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391165548.249834
+e391165550.502940
+r1
+xCompileC
+xDerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o
+x/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m9527406cb650b741^a1bf806eb650b741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m0000000000000000^3864"CompileC DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o Keynetic/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7s -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos -include /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.dia -c /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/main.m -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/main.o36"17FE94CE-4348-429A-A5EB-F56F6734274E-
+
+CCompileStoryboard /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+s391165563.657333
+e391165566.237329
+r1
+xCompileStoryboard
+x/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard Keynetic/en.lproj/MainStoryboard.storyboard8d63a87bb650b741^22c13c7eb650b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard0000000000000000^946"CompileStoryboard Keynetic/en.lproj/MainStoryboard.storyboard    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/MainStoryboard.storyboardc /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"5F14D420-B268-4115-8EE4-858A20C2073C-
+
+CCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.png
+s391165563.479283
+e391165565.770783
+r1
+xCopyPNGFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png
+xKeynetic/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.pngc0cd7a7bb650b741^7e52c57db650b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default-568h@2x.png0000000000000000^714"CopyPNGFile "DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png" "Keynetic/Default-568h@2x.png"    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default-568h@2x.png" "/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png"36"7A81A8F3-075E-4328-A411-DDCECEFD032B-
+
+CCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png
+s391165563.479122
+e391165565.636618
+r1
+xCopyPNGFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png
+xKeynetic/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png72c47a7bb650b741^44f9a27db650b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default.png0000000000000000^674"CopyPNGFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default.png /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png36"15C0C105-FF1D-459F-A704-D9B3DDF8391B-
+
+CCopyPNGFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.png
+s391165563.479267
+e391165565.770787
+r1
+xCopyPNGFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png
+xKeynetic/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.pngb0e47a7bb650b741^6458c57db650b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default@2x.png0000000000000000^694"CopyPNGFile "DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png" "Keynetic/Default@2x.png"    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Default@2x.png" "/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png"36"45821F39-5B14-444C-A256-F92F446F5EE9-
+
+CCopyStringsFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings
+s391165563.478429
+e391165563.656030
+r1
+xCopyStringsFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings
+xKeynetic/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Keynetic/en.lproj/InfoPlist.strings3ca27a7bb650b741^41f1a77bb650b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/en.lproj/InfoPlist.strings0000000000000000^646"CopyStringsFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj -- Keynetic/en.lproj/InfoPlist.strings36"C84E70BE-55A8-44F2-8A26-EF1F60BB820E-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+s391165542.942410
+e391165542.955365
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xDerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist386af166b650b741^0071f766b650b741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist000000000080d041^816"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"2F34AC47-7F46-4F91-B7E7-9BA99C3C2A69-
+
+CGenerateDSYMFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+s391165942.807347
+e391165942.909945
+r1
+xGenerateDSYMFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Generate /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM9cc2cef6b750b741^28f2e8f6b750b741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM/0000000000000000^758"GenerateDSYMFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM36"4CFF9FB6-4D25-4A78-8F54-22AF461682F6-
+
+CLd /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7
+r0
+
+CLd /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7s
+s391165551.679885
+e391165562.107869
+r1
+xLd
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keyneticd925ae6fb650b741^26aa1b7ab650b741^---0#0#0#--1269"Ld DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7s    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos -F/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos -filelist /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7s/Keynetic.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic36"42529C0F-4DB0-4B5C-8100-328EC004D860-
+
+CProcessInfoPlistFile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist
+s391165942.772627
+e391165942.777094
+r1
+xProcessInfoPlistFile
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist
+xKeynetic/Keynetic-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Keynetic/Keynetic-Info.plist33dfc5f6b750b741^a6f2c6f6b750b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Keynetic-Info.plist0000000000000000^910"ProcessInfoPlistFile DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Keynetic/Keynetic-Info.plist -genpkginfo /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist36"770AB3B2-6011-4FDD-9348-CEEF49ED868A-
+
+CProcessPCH /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-afhxovcgphzvdjbpjnourvvjroxk/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391165543.274334
+e391165548.243240
+r1
+xProcessPCH
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth
+xKeynetic/Keynetic-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Keynetic/Keynetic-Prefix.pch14794667b650b741^85443e6cb650b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Keynetic-Prefix.pch0000000000000000^3764"ProcessPCH DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7s -I/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.dia -c /Users/siddhantdanger/Projects/Applications/Keynetic/Keynetic/Keynetic-Prefix.pch -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.pth -MMD -MT dependencies -MF /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-doptwujujzfbobhaaocnylbtbpnh/Keynetic-Prefix.pch.d36"B63C8F69-8C4B-435D-83B6-00570A83C773-
+
+CProcessPCH /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Index/PrecompiledHeaders/Keynetic-Prefix-bdzarkqbhffsdufzvmacvghteaiy_ast/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Index/PrecompiledHeaders/Keynetic-Prefix-fdnmxmnfiuwllncdykezjoaapjff_ast/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+s391165646.823250
+e391165646.826997
+r1
+xProcessProductPackaging
+x/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection232"ProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovisionaed5d2ceb650b741^7cb5d3ceb650b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision0000000000000000^782"ProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/25C40EA4-4E0D-47EE-AB14-3BB513E00183.mobileprovision" -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision36"6043A00C-0A0B-4D5A-B801-EFCCF27CF76C-
+
+CProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision" /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+s391165566.390094
+e391165566.416302
+r1
+xProcessProductPackaging
+x/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection232"ProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision" DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovisionc7f5637eb650b741^ea916a7eb650b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision0000000000000000^782"ProcessProductPackaging "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision" DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/siddhantdanger/Library/MobileDevice/Provisioning Profiles/9B6F73BD-AE35-450F-97DE-3FA9212B5C0A.mobileprovision" -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision36"0A664AAD-D76C-4D3F-9E80-53B769F59DB1-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+s391165943.007767
+e391165943.026877
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent991102f7b750b741^d6e306f7b750b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent0000000000000000^834"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent36"7265EB01-0DA1-447A-B894-5F36E4670B66-
+
+CTouch /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+s391165942.945604
+e391165942.998726
+r1
+xTouch
+x/Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Touch /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app8924f2f6b750b741^60acfff6b750b741^---0#0#0#--457"Touch DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app    cd /Users/siddhantdanger/Projects/Applications/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/siddhantdanger/Projects/Applications/Keynetic/DerivedData/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"825C328D-EBB7-475A-BE50-11A544B6592C-
+
