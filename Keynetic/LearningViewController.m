@@ -29,12 +29,30 @@
     
     self._accelerometer = [UIAccelerometer sharedAccelerometer];
     self._accelerometer.updateInterval = .1;
-    self._accelerometer.delegate = self;
 }
 
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
     NSLog(@"X: %f, Y: %f, Z: %f",acceleration.x, acceleration.y, acceleration.z);
     
+}
+
+-(IBAction)isCollectingData:(id)sender{
+    UISegmentedControl *segCon = (UISegmentedControl*)sender;
+    if(segCon.isEnabled){
+        //turn on
+        [self startAcc];
+    } else{
+        //stop
+        [self stopAcc];
+    }
+}
+
+-(void)stopAcc{
+    self._accelerometer.delegate = nil;
+}
+
+-(void)startAcc{
+    self._accelerometer.delegate = self;
 }
 
 -(IBAction)saveDataToFile:(id)sender{
