@@ -12,10 +12,10 @@
 
 @interface LearningViewController :UIViewController <UIAccelerometerDelegate>{
     UIAccelerometer *_accelerometer;
+    MotionData *_mtData;
 }
 
 @property (nonatomic, retain) UIAccelerometer *_accelerometer;
-@property (nonatomic, retain) MotionData *_mtData;
 @property (nonatomic, retain) IBOutlet UILabel *_resultLabel;
 
 -(IBAction)saveDataToFile:(id)sender;

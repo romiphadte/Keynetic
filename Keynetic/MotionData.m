@@ -11,23 +11,25 @@
 @implementation MotionData
 @synthesize _accPoints, _velPoints, _posPoints;
 
--(MotionData*)init{
-    _accPoints = [NSMutableArray new];
-    _velPoints = [NSMutableArray new];
-    _posPoints = [NSMutableArray new];
+-(MotionData*)initWithAssets{
+    self = [[MotionData alloc] init];
+    self._accPoints = [NSMutableArray new];
+    self._velPoints = [NSMutableArray new];
+    self._posPoints = [NSMutableArray new];
     
-    return [self init];
+    return self;
 }
 
 
 -(MotionData*)initWithAccData:(NSArray*)accData{
-    _accPoints = [NSMutableArray new];
-    _velPoints = [NSMutableArray new];
-    _posPoints = [NSMutableArray new];
+    self = [[MotionData alloc] init];
+    self._accPoints = [NSMutableArray new];
+    self._velPoints = [NSMutableArray new];
+    self._posPoints = [NSMutableArray new];
     
-    [_accPoints arrayByAddingObjectsFromArray:accData];
+    [self._accPoints arrayByAddingObjectsFromArray:accData];
     
-    return [self init];
+    return self;
 }
 
 -(void)generateVelAndPosData{

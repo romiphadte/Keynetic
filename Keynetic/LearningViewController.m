@@ -10,7 +10,6 @@
 
 @implementation LearningViewController
 @synthesize _accelerometer;
-@synthesize _mtData;
 @synthesize _resultLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -28,22 +27,31 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self._accelerometer = [UIAccelerometer sharedAccelerometer];
-    self._accelerometer.updateInterval = .1;
+    self._accelerometer.updateInterval = .01;
+    _mtData = [[MotionData alloc] initWithAssets];
+    NSLog(@"MTDATA: %@",_mtData._accPoints);
 }
 
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
-    NSLog(@"X: %f, Y: %f, Z: %f",acceleration.x, acceleration.y, acceleration.z);
+ //   NSLog(@"X: %f, Y: %f, Z: %f",acceleration.x, acceleration.y, acceleration.z);
+    NSMutableDictionary *accDict = [NSMutableDictionary new];
+    [accDict setObject:[NSNumber numberWithFloat:acceleration.x] forKey:@"x"];
+    [accDict setObject:[NSNumber numberWithFloat:acceleration.y] forKey:@"y"];
+    [accDict setObject:[NSNumber numberWithFloat:acceleration.z] forKey:@"z"];
     
+    [_mtData._accPoints addObject:accDict];
 }
 
 -(IBAction)isCollectingData:(id)sender{
-    UISegmentedControl *segCon = (UISegmentedControl*)sender;
-    if(segCon.isEnabled){
+    UISwitch *collectingSwitch = (UISwitch*)sender;
+    if(collectingSwitch.on){
+        NSLog(@"enabled");
         //turn on
         [self startAcc];
     } else{
         //stop
         [self stopAcc];
+        NSLog(@"ACCDATA: %@",_mtData._accPoints);
     }
 }
 

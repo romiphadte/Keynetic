@@ -13,7 +13,7 @@
 
 @property (nonatomic, retain) NSMutableArray *_accPoints, *_velPoints, *_posPoints;
 
--(MotionData*)init;
+-(MotionData*)initWithAssets;
 -(MotionData*)initWithAccData:(NSArray*)accData;
 
 +(BOOL)saveMotionData:(MotionData*)mtData;
