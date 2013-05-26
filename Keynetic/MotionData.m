@@ -27,13 +27,13 @@
     self._velPoints = [NSMutableArray new];
     self._posPoints = [NSMutableArray new];
     
-    [self._accPoints arrayByAddingObjectsFromArray:accData];
+    self._accPoints = [NSArray arrayWithArray:accData];
+    NSLog(@"ONE: %d TWO: %d",accData.count, self._accPoints.count);
     
     return self;
 }
 
 -(void)generateVelAndPosData{
-    int counter = 0;
     for(int i = 0; i < self._accPoints.count; i++){
         float time = 0.1;
         
@@ -77,7 +77,16 @@
     
 }
 
-
+-(void)trimData{
+    for (int i = 0; i < _accPoints.count; i++) {
+        NSDictionary *dict = [_accPoints objectAtIndex:i];
+        
+        if(((NSNumber*)[dict objectForKey:@"x"]).floatValue == 0 && ((NSNumber*)[dict objectForKey:@"y"]).floatValue == 0 && ((NSNumber*)[dict objectForKey:@"z"]).floatValue == 0){
+            [_accPoints removeObjectAtIndex:i];
+            i--;
+        }
+    }
+}
 
 +(BOOL)saveMotionData:(MotionData*)mtData{
     

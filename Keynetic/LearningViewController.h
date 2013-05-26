@@ -14,13 +14,16 @@
     UIAccelerometer *_accelerometer;
     MotionData *_mtData;
     float accelX, accelY, accelZ;
-    float x,y,z, vx, vy, vz;
+    float time;
+    BOOL collectingData;
+    NSTimer *timer;
 }
 
 @property (nonatomic, retain) UIAccelerometer *_accelerometer;
 @property (nonatomic, retain) IBOutlet UILabel *_resultLabel;
 
 -(IBAction)saveDataToFile:(id)sender;
+-(IBAction)collectData:(id)sender;
 -(IBAction)isCollectingData:(id)sender;
 -(IBAction)compareDataFromFile:(id)sender;
 
