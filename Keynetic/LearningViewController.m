@@ -27,7 +27,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self._accelerometer = [UIAccelerometer sharedAccelerometer];
-    self._accelerometer.updateInterval = .01;
+    self._accelerometer.updateInterval = 0.01;
     _mtData = [[MotionData alloc] initWithAssets];
     NSLog(@"MTDATA: %@",_mtData._accPoints);
 }

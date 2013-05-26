@@ -467,8 +467,8 @@
 		63E9C2F91750B50900AD2F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: John Flowers (Q3C53A9BTF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John Flowers (Q3C53A9BTF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -477,8 +477,8 @@
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36A81D02-0121-45DC-AF79-954E498188FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "383C6B00-1A50-41E8-BD56-2253DAE7DB60";
+				PROVISIONING_PROFILE = "C25F089B-07C6-4C52-9C36-CFBC5B53782D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C25F089B-07C6-4C52-9C36-CFBC5B53782D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -486,8 +486,8 @@
 		63E9C2FA1750B50900AD2F69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: John Flowers (Q3C53A9BTF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John Flowers (Q3C53A9BTF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -496,8 +496,8 @@
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36A81D02-0121-45DC-AF79-954E498188FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "383C6B00-1A50-41E8-BD56-2253DAE7DB60";
+				PROVISIONING_PROFILE = "C25F089B-07C6-4C52-9C36-CFBC5B53782D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C25F089B-07C6-4C52-9C36-CFBC5B53782D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

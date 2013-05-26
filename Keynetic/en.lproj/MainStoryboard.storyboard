@@ -64,7 +64,6 @@
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5mf-ky-Ae4">
                                 <connections>
                                     <action selector="isCollectingData:" destination="Fpb-1G-aCS" eventType="valueChanged" id="SW7-5l-iir"/>
-                                    <action selector="switched:" destination="Fpb-1G-aCS" eventType="valueChanged" id="Pvq-Zs-HRg"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generate Data" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-bF-Lpd">
@@ -121,12 +120,11 @@
                     <navigationItem key="navigationItem" id="XnA-Gu-wY4"/>
                     <connections>
                         <outlet property="_resultLabel" destination="dqY-cV-01Z" id="q7Z-6n-bu0"/>
-                        <outlet property="thisswitch" destination="5mf-ky-Ae4" id="S9q-Bv-TNx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="au4-61-W1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534" y="-42"/>
+            <point key="canvasLocation" x="564" y="-159"/>
         </scene>
         <!--Pass View-->
         <scene sceneID="JgA-AR-Am9">
