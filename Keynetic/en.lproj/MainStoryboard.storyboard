@@ -61,7 +61,11 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5mf-ky-Ae4"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5mf-ky-Ae4">
+                                <connections>
+                                    <action selector="isCollectingData:" destination="Fpb-1G-aCS" eventType="valueChanged" id="SW7-5l-iir"/>
+                                </connections>
+                            </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generate Data" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-bF-Lpd">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -114,6 +118,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XnA-Gu-wY4"/>
+                    <connections>
+                        <outlet property="_resultLabel" destination="dqY-cV-01Z" id="q7Z-6n-bu0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="au4-61-W1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,6 +168,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LearningViewController.h"/>
             <relationships>
                 <relationship kind="action" name="compareDataFromFile:"/>
+                <relationship kind="action" name="isCollectingData:"/>
                 <relationship kind="action" name="saveDataToFile:"/>
                 <relationship kind="outlet" name="_resultLabel" candidateClass="UILabel"/>
             </relationships>

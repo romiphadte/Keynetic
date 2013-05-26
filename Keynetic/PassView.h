@@ -1,6 +1,6 @@
 //
 //  PassView.h
-//  KeyneticPasswordKey
+//  KeyxneticPasswordKey
 //
 //  Created by Tyler Flowers on 5/25/13.
 //  Copyright (c) 2013 CodeDaySF2013. All rights reserved.

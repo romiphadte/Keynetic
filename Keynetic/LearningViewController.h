@@ -19,6 +19,8 @@
 @property (nonatomic, retain) IBOutlet UILabel *_resultLabel;
 
 -(IBAction)saveDataToFile:(id)sender;
+-(IBAction)isCollectingData:(id)sender;
 -(IBAction)compareDataFromFile:(id)sender;
+
 
 @end
