@@ -105,15 +105,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="5mf-ky-Ae4" firstAttribute="centerX" secondItem="KcT-bF-Lpd" secondAttribute="centerX" type="default" id="6hm-il-Z60"/>
+                            <constraint firstItem="5mf-ky-Ae4" firstAttribute="top" secondItem="UZg-1x-e44" secondAttribute="top" constant="93" id="81L-0u-Aao"/>
                             <constraint firstItem="NUt-Db-dFb" firstAttribute="top" secondItem="UZg-1x-e44" secondAttribute="top" constant="171" id="CRh-DU-O7r"/>
                             <constraint firstAttribute="bottom" secondItem="dqY-cV-01Z" secondAttribute="bottom" constant="143" id="IzC-6t-S2A"/>
                             <constraint firstItem="pi9-Bq-arT" firstAttribute="centerX" secondItem="NUt-Db-dFb" secondAttribute="centerX" type="default" id="KZ6-nR-p3J"/>
                             <constraint firstItem="dqY-cV-01Z" firstAttribute="centerX" secondItem="pi9-Bq-arT" secondAttribute="centerX" type="default" id="NiK-EG-V9m"/>
-                            <constraint firstItem="5mf-ky-Ae4" firstAttribute="top" secondItem="UZg-1x-e44" secondAttribute="top" constant="90" id="YO4-I5-hlP"/>
                             <constraint firstAttribute="bottom" secondItem="pi9-Bq-arT" secondAttribute="bottom" constant="203" id="f0M-re-zWR"/>
-                            <constraint firstItem="KcT-bF-Lpd" firstAttribute="centerX" secondItem="5mf-ky-Ae4" secondAttribute="centerX" type="default" id="gVZ-UB-1ma"/>
-                            <constraint firstItem="dqY-cV-01Z" firstAttribute="centerX" secondItem="UZg-1x-e44" secondAttribute="centerX" type="default" id="gsI-il-DhE"/>
                             <constraint firstItem="KcT-bF-Lpd" firstAttribute="top" secondItem="UZg-1x-e44" secondAttribute="top" constant="49" id="hEg-5q-d7e"/>
+                            <constraint firstItem="KcT-bF-Lpd" firstAttribute="centerX" secondItem="UZg-1x-e44" secondAttribute="centerX" type="default" id="haJ-Ck-rcq"/>
                             <constraint firstItem="NUt-Db-dFb" firstAttribute="trailing" secondItem="KcT-bF-Lpd" secondAttribute="trailing" type="default" id="mq5-Qx-xGS"/>
                         </constraints>
                     </view>
@@ -170,6 +170,7 @@
                 <relationship kind="action" name="compareDataFromFile:"/>
                 <relationship kind="action" name="isCollectingData:"/>
                 <relationship kind="action" name="saveDataToFile:"/>
+                <relationship kind="action" name="switched:"/>
                 <relationship kind="outlet" name="_resultLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

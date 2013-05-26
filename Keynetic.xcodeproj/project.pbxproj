@@ -10,6 +10,7 @@
 		2F1154091751773D0050EA43 /* LoggedInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1154051751773D0050EA43 /* LoggedInView.m */; };
 		2F11540A1751773D0050EA43 /* LoggedInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1154061751773D0050EA43 /* LoggedInView.xib */; };
 		2F11540B1751773D0050EA43 /* PassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1154081751773D0050EA43 /* PassView.m */; };
+		637E12461751C1970080BC31 /* asdfA.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E12451751C1970080BC31 /* asdfA.m */; };
 		63D6339117515EE5005B1474 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339017515EE5005B1474 /* LearningViewController.m */; };
 		63D6339417515F41005B1474 /* MotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339317515F41005B1474 /* MotionData.m */; };
 		63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D633971751641F005B1474 /* MotionDataAnalyzer.mm */; };
@@ -56,6 +57,8 @@
 		2F1154061751773D0050EA43 /* LoggedInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoggedInView.xib; sourceTree = "<group>"; };
 		2F1154071751773D0050EA43 /* PassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassView.h; sourceTree = "<group>"; };
 		2F1154081751773D0050EA43 /* PassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassView.m; sourceTree = "<group>"; };
+		637E12441751C1970080BC31 /* asdfA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asdfA.h; sourceTree = "<group>"; };
+		637E12451751C1970080BC31 /* asdfA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asdfA.m; sourceTree = "<group>"; };
 		63D6338F17515EE5005B1474 /* LearningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
 		63D6339017515EE5005B1474 /* LearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
 		63D6339217515F41005B1474 /* MotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionData.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 		63D6338D17515E59005B1474 /* MyClasses */ = {
 			isa = PBXGroup;
 			children = (
+				637E12441751C1970080BC31 /* asdfA.h */,
+				637E12451751C1970080BC31 /* asdfA.m */,
 				63D6339217515F41005B1474 /* MotionData.h */,
 				63D6339317515F41005B1474 /* MotionData.m */,
 				63D633961751641F005B1474 /* MotionDataAnalyzer.h */,
@@ -359,6 +364,7 @@
 				63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */,
 				2F1154091751773D0050EA43 /* LoggedInView.m in Sources */,
 				2F11540B1751773D0050EA43 /* PassView.m in Sources */,
+				637E12461751C1970080BC31 /* asdfA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

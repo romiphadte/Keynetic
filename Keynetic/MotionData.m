@@ -32,6 +32,51 @@
     return self;
 }
 
+-(void)generateVelAndPosData{
+    int counter = 0;
+    for(int i = 0; i < self._accPoints.count; i++){
+        float time = i * 0.01;
+        
+        //acc points
+        NSDictionary* dict = [self._accPoints objectAtIndex:i];
+        float aX = ((NSNumber*)[dict objectForKey:@"x"]).floatValue;
+        float aY = ((NSNumber*)[dict objectForKey:@"y"]).floatValue;
+        float aZ = ((NSNumber*)[dict objectForKey:@"z"]).floatValue;
+        
+        //transform and log to velocity pts
+        NSMutableDictionary *velPoint = [NSMutableDictionary new];
+        float pVX = 0, pVY = 0, pVZ = 0;
+        if(i != 0){
+            NSDictionary *velDict = [self._velPoints objectAtIndex:(i-1)];
+            pVX = ((NSNumber*)[velDict objectForKey:@"x"]).floatValue;
+            pVY = ((NSNumber*)[velDict objectForKey:@"y"]).floatValue;
+            pVZ = ((NSNumber*)[velDict objectForKey:@"z"]).floatValue;
+        }
+        
+        [velPoint setObject:[NSNumber numberWithFloat:(pVX + (aX * time))] forKey:@"x"];
+        [velPoint setObject:[NSNumber numberWithFloat:(pVY + (aY * time))] forKey:@"y"];
+        [velPoint setObject:[NSNumber numberWithFloat:(pVZ + (aZ * time))] forKey:@"z"];
+        [self._velPoints addObject:velPoint];
+        
+        //transform and log to pos pts
+        NSMutableDictionary *posPoint = [NSMutableDictionary new];
+        float pPX = 0, pPY = 0, pPZ = 0;
+        if(i != 0){
+            NSDictionary *posDict = [self._posPoints objectAtIndex:(i-1)];
+            pPX = ((NSNumber*)[posDict objectForKey:@"x"]).floatValue;
+            pPY = ((NSNumber*)[posDict objectForKey:@"y"]).floatValue;
+            pPZ = ((NSNumber*)[posDict objectForKey:@"z"]).floatValue;
+        }
+        
+        [posPoint setObject:[NSNumber numberWithFloat:(pPX + ((0.5 * aX) * pow(time, 2)))] forKey:@"x"];
+        [posPoint setObject:[NSNumber numberWithFloat:(pPY + ((0.5 * aY) * pow(time, 2)))] forKey:@"y"];
+        [posPoint setObject:[NSNumber numberWithFloat:(pPZ + ((0.5 * aZ) * pow(time, 2)))] forKey:@"z"];
+        [self._posPoints addObject:posPoint];
+    }
+        
+    
+}
+
 
 
 +(BOOL)saveMotionData:(MotionData*)mtData{

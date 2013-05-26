@@ -50,8 +50,13 @@
         [self startAcc];
     } else{
         //stop
+        
         [self stopAcc];
-        NSLog(@"ACCDATA: %@",_mtData._accPoints);
+      //  [_mtData generateVelAndPosData];
+        for(NSDictionary *dict in _mtData._accPoints) {
+            NSLog(@"%f,%f,%f;",((NSNumber*)[dict objectForKey:@"x"]).floatValue,((NSNumber*)[dict objectForKey:@"y"]).floatValue,((NSNumber*)[dict objectForKey:@"z"]).floatValue);
+        }
+       // NSLog(@"ACCDATA: %@",_mtData._accPoints);
     }
 }
 
