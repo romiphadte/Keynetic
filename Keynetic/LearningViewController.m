@@ -88,6 +88,9 @@
     [_resultLabel setTextColor:labelColor];
 }
 
+- (IBAction)switched:(id)sender {
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

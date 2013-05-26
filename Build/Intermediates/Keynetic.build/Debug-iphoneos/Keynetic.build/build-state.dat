@@ -1,0 +1,727 @@
+TKeynetic
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+cProcessPCH++ /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o /Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o /Users/Tyler/Desktop/Keynetic/Keynetic/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o /Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o /Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o /Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o /Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7
+cGenerateDSYMFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+cCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.png
+cCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png
+cCopyStringsFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.png
+cCompileXIB /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib
+cCompileStoryboard /Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+cProcessProductPackaging "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+cTouch /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+cCodeSign /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c00000000517247B60000000000000110
+t1366443958
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c000000005106DE3900000000000001A7
+t1359404601
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c000000005106DE3900000000000001E5
+t1359404601
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005106DE3A000000000036CDF0
+t1359404602
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005106DE3900000000000064F0
+t1359404601
+s25840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005106DE3A000000000003AE00
+t1359404602
+s241152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005106DE3B0000000000322700
+t1359404603
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c000000005106DE3B0000000000228E60
+t1359404603
+s2264672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005106DE3B00000000001694D0
+t1359404603
+s1479888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005106DE3B0000000000041310
+t1359404603
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005106DE3C000000000062AD10
+t1359404604
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005106DE3B00000000000015F7
+t1359404603
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005106DE3D00000000003596B0
+t1359404605
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Social.framework/Social
+c000000005106DE3C00000000001889F0
+t1359404604
+s1608176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000005106DE3C0000000000000E8D
+t1359404604
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005106DE4000000000011BCDF0
+t1359404608
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c000000005106DE420000000000001B73
+t1359404610
+s7027
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+t1369521967
+s416
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o
+t1369521965
+s85768
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o
+t1369521965
+s67688
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/Keynetic.LinkFileList
+c0000000051A14084000000000000041F
+t1369522308
+s1055
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o
+t1369521965
+s83584
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o
+t1369522308
+s72104
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o
+t1369521965
+s17768
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o
+t1369521966
+s5900
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o
+t1369523821
+s88020
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o
+t1369521965
+s3360
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth
+t1369521965
+s5405312
+
+N/Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth
+t1369521965
+s4606688
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+t1369523821
+s476
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM
+t1369523821
+s102
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png
+t1369521966
+s7014
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png
+t1369521966
+s3688
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png
+t1369521966
+s6316
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist
+t1369521964
+s1002
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+t1369523821
+s56768
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/LoggedInView.nib
+t1369522309
+s2480
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/MainViewController_iPhone.nib
+t2
+s0
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PassView.nib
+t1369522308
+s3462
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PkgInfo
+t1369521964
+s8
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+t1369521964
+s485
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+t1369521967
+s7907
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings
+t1369521966
+s42
+
+N/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/MainStoryboard.storyboardc
+t1369523038
+s306
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.h
+c0000000051A13CB30000000000000116
+t1369521331
+s278
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m
+c0000000051A13CB300000000000007D8
+t1369521331
+s2008
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/Default-568h@2x.png
+c0000000051A13CB300000000000048A2
+t1369521331
+s18594
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/Default.png
+c0000000051A13CB3000000000000198C
+t1369521331
+s6540
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/Default@2x.png
+c0000000051A13CB30000000000003EEB
+t1369521331
+s16107
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.h
+c0000000051A13CB300000000000000E2
+t1369521331
+s226
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m
+c0000000051A13CB300000000000001FA
+t1369521331
+s506
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Prefix.pch
+c0000000051A13CB3000000000000013F
+t1369521331
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.h
+c0000000051A13CB30000000000000262
+t1369521331
+s610
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m
+c0000000051A13CB300000000000006EC
+t1369521331
+s1772
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.h
+c0000000051A12CD20000000000000163
+t1369517266
+s355
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m
+c0000000051A12D4B00000000000003BF
+t1369517387
+s959
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib
+c0000000051A12E3E000000000000479B
+t1369517630
+s18331
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MainViewController.m
+c0000000051A1353800000000000006E3
+t1369519416
+s1763
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MainViewController_iPhone.xib
+c0000000051A13439000000000000736F
+t1369519161
+s29551
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.h
+c0000000051A13CB300000000000001BA
+t1369521331
+s442
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m
+c0000000051A13CB300000000000005D8
+t1369521331
+s1496
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.h
+c0000000051A13CB300000000000001BB
+t1369521331
+s443
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm
+c0000000051A13CB300000000000001FC
+t1369521331
+s508
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.h
+c0000000051A13FED00000000000001DC
+t1369522157
+s476
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m
+c0000000051A146EF0000000000000B7E
+t1369523951
+s2942
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib
+c0000000051A13439000000000000736F
+t1369519161
+s29551
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/InfoPlist.strings
+c0000000051A13CB3000000000000002D
+t1369521331
+s45
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+c0000000051A1435D0000000000003BA6
+t1369523037
+s15270
+
+N/Users/Tyler/Desktop/Keynetic/Keynetic/main.m
+c0000000051A13CB30000000000000151
+t1369521331
+s337
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/core.hpp
+c0000000051A13CB3000000000002CBF3
+t1369521331
+s183283
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/core_c.h
+c0000000051A13CB30000000000013298
+t1369521331
+s78488
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/mat.hpp
+c0000000051A13CB30000000000013923
+t1369521331
+s80163
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/operations.hpp
+c0000000051A13CB3000000000001F6AA
+t1369521331
+s128682
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/types_c.h
+c0000000051A13CB3000000000000E0BE
+t1369521331
+s57534
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/core/version.hpp
+c0000000051A13CB300000000000009EA
+t1369521331
+s2538
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/highgui/cap_ios.h
+c0000000051A13CB30000000000001428
+t1369521331
+s5160
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/highgui/highgui_c.h
+c0000000051A13CB300000000000065A3
+t1369521331
+s26019
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/imgproc/imgproc_c.h
+c0000000051A13CB3000000000000767F
+t1369521331
+s30335
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/Headers/imgproc/types_c.h
+c0000000051A13CB30000000000003EB4
+t1369521331
+s16052
+
+N/Users/Tyler/Desktop/Keynetic/opencv2.framework/opencv2
+c0000000051A13CB30000000002080F3C
+t1369521331
+s34082620
+
+N/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision
+c00000000509EEF950000000000001EE3
+t1352593301
+s7907
+
+NKeynetic/Keynetic-Info.plist
+c0000000051A13CB30000000000000464
+t1369521331
+s1124
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/MainViewController.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m
+r0
+
+CBuild AST from /Users/Tyler/Desktop/Keynetic/Keynetic/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies20cfee707e51b741^514ff3707e51b741^---0#1#0#--18"Check dependencies36"41845421-FA38-439F-8496-9B9D5AFBB8ED-
+
+CCodeSign /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+s391216753.985006
+e391216754.202636
+r1
+xCodeSign
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CodeSign Build/Products/Debug-iphoneos/Keynetic.app113afc717e51b741^e3df33727e51b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/0000000000000000^799"CodeSign Build/Products/Debug-iphoneos/Keynetic.app    cd /Users/Tyler/Desktop/Keynetic    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign ecfde4c3ee02d401cfd12568aa37c81c7a75e06c --resource-rules=/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist --entitlements /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"4A6DD379-99DA-41B5-B810-844E48B880FB-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o /Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.176157
+e391214765.341950
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m70422dad7651b741^368f57ad7651b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m0000000000000000^3336"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o Keynetic/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/AppDelegate.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/AppDelegate.o36"27A6FFB0-E580-4E5B-AE03-1DED3A665FF3-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o /Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.254210
+e391214765.350683
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m529e41ad7651b741^42d059ad7651b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m0000000000000000^3378"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o Keynetic/HomeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/HomeViewController.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/HomeViewController.o36"6E5FA6CA-9D5F-4136-B14D-4DD1B51E35C1-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o /Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.343512
+e391214765.716532
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m395f58ad7651b741^3b6fb7ad7651b741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m0000000000000000^3402"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o Keynetic/LearningViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/LearningViewController.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LearningViewController.o36"67EB1681-6B1A-4077-BCFF-3749C88E1087-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391215108.461783
+e391215108.532735
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m475a76047851b741^cc6088047851b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m0000000000000000^3342"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o Keynetic/LoggedInView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/LoggedInView.o36"C85E5CDE-749B-444E-B492-170FEFC55175-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MainViewController.o /Users/Tyler/Desktop/Keynetic/Keynetic/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o /Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.161747
+e391214765.437027
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m33542dad7651b741^fe0f70ad7651b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m0000000000000000^3330"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o Keynetic/MotionData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/MotionData.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionData.o36"63D5458A-82E1-4D43-BCBD-FC6B05214756-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o /Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.444086
+e391214766.613002
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm98db71ad7651b741^b3ed9cae7651b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm0000000000000000^3528"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o Keynetic/MotionDataAnalyzer.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/MotionDataAnalyzer.mm -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/MotionDataAnalyzer.o36"3B6E1E48-405A-4442-9D63-29C59B11A94A-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391216752.959603
+e391216753.703499
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m65c8f5707e51b741^0d18b4717e51b741^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m0000000000000000^3318"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o Keynetic/PassView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/PassView.o36"C257838C-9123-4D49-A0D8-B90CBA933A72-
+
+CCompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o /Users/Tyler/Desktop/Keynetic/Keynetic/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214765.175331
+e391214765.251884
+r1
+xCompileC
+xBuild/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o
+x/Users/Tyler/Desktop/Keynetic/Keynetic/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/Tyler/Desktop/Keynetic/Keynetic/main.mf10d2dad7651b741^acad40ad7651b741^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/main.m0000000000000000^3294"CompileC Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o Keynetic/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -include /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/main.m -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/main.o36"259CE4CB-80E7-4C76-81B2-C439F6BBA78E-
+
+CCompileStoryboard /Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+s391215837.168976
+e391215838.459804
+r1
+xCompileStoryboard
+x/Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard
+o2013-05-25 16:03:58.155 Interface Builder Cocoa Touch Tool[6351:f07] CFPreferences: user home directory at file://localhost/Users/Tyler/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard Keynetic/en.lproj/MainStoryboard.storyboard6b602bdd7a51b741^04c775de7a51b741^-237"2013-05-25 16:03:58.155 Interface Builder Cocoa Touch Tool[6351:f07] CFPreferences: user home directory at file://localhost/Users/Tyler/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard0000000000000000^856"CompileStoryboard Keynetic/en.lproj/MainStoryboard.storyboard    cd /Users/Tyler/Desktop/Keynetic    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/MainStoryboard.storyboardc /Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"D6BF6043-0AC8-4A8F-BA50-3DC6EF8FD055-
+
+CCompileXIB /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib
+s391215108.636611
+e391215109.985335
+r1
+xCompileXIB
+x/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib
+o2013-05-25 15:51:49.789 Interface Builder Cocoa Touch Tool[6121:f07] CFPreferences: user home directory at file://localhost/Users/Tyler/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compiling /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib9411a3047851b741^fb3efc057851b741^-237"2013-05-25 15:51:49.789 Interface Builder Cocoa Touch Tool[6121:f07] CFPreferences: user home directory at file://localhost/Users/Tyler/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib0000000000000000^793"CompileXIB Keynetic/LoggedInView.xib    cd /Users/Tyler/Desktop/Keynetic    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/LoggedInView.nib /Users/Tyler/Desktop/Keynetic/Keynetic/LoggedInView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"A4B60A88-2406-421E-BBF7-2B1C79C967EE-
+
+CCompileXIB /Users/Tyler/Desktop/Keynetic/Keynetic/MainViewController_iPhone.xib
+r0
+
+CCompileXIB /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib
+s391215108.636608
+e391215108.684974
+r1
+xCompileXIB
+x/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compiling /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib6f0ea3047851b741^d95aaf047851b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib0000000000000000^781"CompileXIB Keynetic/PassView.xib    cd /Users/Tyler/Desktop/Keynetic    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PassView.nib /Users/Tyler/Desktop/Keynetic/Keynetic/PassView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"8274A82C-639F-4596-8B7E-27C9DF4E8E55-
+
+CCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.png
+s391214766.712592
+e391214766.885350
+r1
+xCopyPNGFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png
+xKeynetic/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png Keynetic/Default-568h@2x.pngc383b6ae7651b741^4ca6e2ae7651b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Default-568h@2x.png0000000000000000^603"CopyPNGFile "Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png" "Keynetic/Default-568h@2x.png"    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Tyler/Desktop/Keynetic/Keynetic/Default-568h@2x.png" "/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default-568h@2x.png"36"A2798456-8922-4BAF-8D40-738DE2D9802F-
+
+CCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png
+s391214766.712381
+e391214766.800867
+r1
+xCopyPNGFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png
+xKeynetic/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"CopyPNGFile Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png707bb6ae7651b741^7d05cdae7651b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Default.png0000000000000000^563"CopyPNGFile Build/Products/Debug-iphoneos/Keynetic.app/Default.png Keynetic/Default.png    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Tyler/Desktop/Keynetic/Keynetic/Default.png /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default.png36"5B3565B2-9AAB-4E20-85E9-AFF945D9A754-
+
+CCopyPNGFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.png
+s391214766.712360
+e391214766.867997
+r1
+xCopyPNGFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png
+xKeynetic/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png Keynetic/Default@2x.pngaa7db6ae7651b741^ec34deae7651b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Default@2x.png0000000000000000^583"CopyPNGFile "Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png" "Keynetic/Default@2x.png"    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Tyler/Desktop/Keynetic/Keynetic/Default@2x.png" "/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Default@2x.png"36"F93EEB2A-EFFF-4260-90E5-2E17832A0925-
+
+CCopyStringsFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings
+s391214766.712392
+e391214766.719679
+r1
+xCopyStringsFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings
+xKeynetic/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Keynetic/en.lproj/InfoPlist.stringsc47bb6ae7651b741^5037b8ae7651b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/en.lproj/InfoPlist.strings0000000000000000^558"CopyStringsFile Build/Products/Debug-iphoneos/Keynetic.app/en.lproj/InfoPlist.strings Keynetic/en.lproj/InfoPlist.strings    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/en.lproj -- Keynetic/en.lproj/InfoPlist.strings36"B3AB69EF-FB95-4BBB-8631-40DFF1FE5943-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+s391214764.753410
+e391214764.755932
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist50fcc0ac7651b741^8107c2ac7651b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist000000000080d041^728"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"DB5B6C04-985A-46CC-AF41-24949A49CCE3-
+
+CGenerateDSYMFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+s391216753.854748
+e391216753.892668
+r1
+xGenerateDSYMFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM3be4da717e51b741^7787e4717e51b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM/0000000000000000^605"GenerateDSYMFile Build/Products/Debug-iphoneos/Keynetic.app.dSYM Build/Products/Debug-iphoneos/Keynetic.app/Keynetic    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic -o /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app.dSYM36"6FDDAECC-AAD8-491A-9ABF-44BC115C79E2-
+
+CLd /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7
+s391216753.710471
+e391216753.847785
+r1
+xLd
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keyneticdff9b5717e51b741^030ad9717e51b741^---0#0#0#--1288"Ld Build/Products/Debug-iphoneos/Keynetic.app/Keynetic normal armv7    cd /Users/Tyler/Desktop/Keynetic    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic -filelist /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Objects-normal/armv7/Keynetic.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -stdlib=libc++ -miphoneos-version-min=6.1 -framework Accelerate -framework AssetsLibrary -framework AVFoundation -framework CoreImage -framework CoreMedia -framework CoreVideo -framework QuartzCore -framework Social -framework CoreGraphics -framework Foundation -framework UIKit -framework opencv2 -o /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Keynetic36"83CBAFB2-785E-4C22-B88C-7B2B3165BEA8-
+
+CProcessInfoPlistFile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist
+s391214764.753603
+e391214764.758155
+r1
+xProcessInfoPlistFile
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist
+xKeynetic/Keynetic-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Keynetic/Keynetic-Info.plistf60cc1ac7651b741^0e16c2ac7651b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Info.plist0000000000000000^734"ProcessInfoPlistFile Build/Products/Debug-iphoneos/Keynetic.app/Info.plist Keynetic/Keynetic-Info.plist    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Keynetic/Keynetic-Info.plist -genpkginfo /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/ResourceRules.plist -o /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/Info.plist36"B4BECF1F-E62A-4EA8-A1AB-E50B314A7654-
+
+CProcessPCH /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391214764.766419
+e391214765.150412
+r1
+xProcessPCH
+x/Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth
+xKeynetic/Keynetic-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Keynetic/Keynetic-Prefix.pch8d63c4ac7651b741^5a8026ad7651b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Prefix.pch0000000000000000^3242"ProcessPCH Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Prefix.pch -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.pth -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-ghpwbciwjwuwtfdhkmgatdqocqxt/Keynetic-Prefix.pch.d36"F1B19029-E3A7-43D3-9EBB-A0E5A98E2617-
+
+CProcessPCH /Users/Tyler/Desktop/Keynetic/DerivedData/Keynetic/Index/PrecompiledHeaders/Keynetic-Prefix-erpdfnejiynpzhemvjqfjwpecxgl_ast/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s391214764.766426
+e391214765.437115
+r1
+xProcessPCH++
+x/Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth
+xKeynetic/Keynetic-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Keynetic/Keynetic-Prefix.pchbc77c4ac7651b741^d71870ad7651b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Prefix.pch0000000000000000^3392"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tyler/Desktop/Keynetic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-generated-files.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-own-target-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-all-target-headers.hmap -iquote /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic-project-headers.hmap -I/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources/armv7 -I/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/DerivedSources -F/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos -F/Users/Tyler/Desktop/Keynetic --serialize-diagnostics /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.dia -c /Users/Tyler/Desktop/Keynetic/Keynetic/Keynetic-Prefix.pch -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.pth -MMD -MT dependencies -MF /Users/Tyler/Desktop/Keynetic/Build/Intermediates/PrecompiledHeaders/Keynetic-Prefix-dyrdkpnztkdjazgivewlzysohpvf/Keynetic-Prefix.pch.d36"6C8D9E7E-8F29-4CDE-8EDE-FB97F56B9B55-
+
+CProcessPCH++ /Users/Tyler/Desktop/Keynetic/DerivedData/Keynetic/Index/PrecompiledHeaders/Keynetic-Prefix-grzzhinjqtrtjseldwqqsscgqayp_ast/Keynetic-Prefix.pch.pth Keynetic/Keynetic-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+s391214767.941571
+e391214767.946722
+r1
+xProcessProductPackaging
+x/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection202"ProcessProductPackaging "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision3b1cf1af7651b741^0c5cf2af7651b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision0000000000000000^676"ProcessProductPackaging "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Tyler/Library/MobileDevice/Provisioning Profiles/383C6B00-1A50-41E8-BD56-2253DAE7DB60.mobileprovision" -o /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app/embedded.mobileprovision36"56E4C4BC-F131-473B-8EF8-83602F63C8D2-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+s391214767.971087
+e391214767.974025
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcenteab2f8af7651b741^b858f9af7651b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent000000000080d041^746"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Tyler/Desktop/Keynetic/Build/Intermediates/Keynetic.build/Debug-iphoneos/Keynetic.build/Keynetic.xcent36"0DF335F4-D3D6-4B71-B108-0EC51F720DAB-
+
+CTouch /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+s391216753.958231
+e391216753.968001
+r1
+xTouch
+x/Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app815df5717e51b741^85cef7717e51b741^---0#0#0#--369"Touch Build/Products/Debug-iphoneos/Keynetic.app    cd /Users/Tyler/Desktop/Keynetic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Tyler/Desktop/Keynetic/Build/Products/Debug-iphoneos/Keynetic.app36"D920C647-3AF1-4C23-BC0D-B0E1D066C3E0-
+

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1154091751773D0050EA43 /* LoggedInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1154051751773D0050EA43 /* LoggedInView.m */; };
+		2F11540A1751773D0050EA43 /* LoggedInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1154061751773D0050EA43 /* LoggedInView.xib */; };
+		2F11540B1751773D0050EA43 /* PassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1154081751773D0050EA43 /* PassView.m */; };
 		63D6339117515EE5005B1474 /* LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339017515EE5005B1474 /* LearningViewController.m */; };
 		63D6339417515F41005B1474 /* MotionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D6339317515F41005B1474 /* MotionData.m */; };
 		63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63D633971751641F005B1474 /* MotionDataAnalyzer.mm */; };
@@ -48,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1154041751773D0050EA43 /* LoggedInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedInView.h; sourceTree = "<group>"; };
+		2F1154051751773D0050EA43 /* LoggedInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedInView.m; sourceTree = "<group>"; };
+		2F1154061751773D0050EA43 /* LoggedInView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoggedInView.xib; sourceTree = "<group>"; };
+		2F1154071751773D0050EA43 /* PassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassView.h; sourceTree = "<group>"; };
+		2F1154081751773D0050EA43 /* PassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassView.m; sourceTree = "<group>"; };
 		63D6338F17515EE5005B1474 /* LearningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearningViewController.h; sourceTree = "<group>"; };
 		63D6339017515EE5005B1474 /* LearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearningViewController.m; sourceTree = "<group>"; };
 		63D6339217515F41005B1474 /* MotionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionData.h; sourceTree = "<group>"; };
@@ -185,6 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				63E9C2DB1750B50800AD2F69 /* MainStoryboard.storyboard */,
+				2F1154041751773D0050EA43 /* LoggedInView.h */,
+				2F1154051751773D0050EA43 /* LoggedInView.m */,
+				2F1154061751773D0050EA43 /* LoggedInView.xib */,
+				2F1154071751773D0050EA43 /* PassView.h */,
+				2F1154081751773D0050EA43 /* PassView.m */,
 				63E9C2D21750B50800AD2F69 /* AppDelegate.h */,
 				63E9C2D31750B50800AD2F69 /* AppDelegate.m */,
 				63D6338E17515E60005B1474 /* ViewControllers */,
@@ -303,6 +316,7 @@
 				63E9C2D81750B50800AD2F69 /* Default@2x.png in Resources */,
 				63E9C2DA1750B50800AD2F69 /* Default-568h@2x.png in Resources */,
 				63E9C2DD1750B50800AD2F69 /* MainStoryboard.storyboard in Resources */,
+				2F11540A1751773D0050EA43 /* LoggedInView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +357,8 @@
 				63D6339117515EE5005B1474 /* LearningViewController.m in Sources */,
 				63D6339417515F41005B1474 /* MotionData.m in Sources */,
 				63D633981751641F005B1474 /* MotionDataAnalyzer.mm in Sources */,
+				2F1154091751773D0050EA43 /* LoggedInView.m in Sources */,
+				2F11540B1751773D0050EA43 /* PassView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,8 +467,8 @@
 		63E9C2F91750B50900AD2F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Flowers (Q3C53A9BTF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John Flowers (Q3C53A9BTF)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -461,8 +477,8 @@
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				PROVISIONING_PROFILE = "36A81D02-0121-45DC-AF79-954E498188FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "383C6B00-1A50-41E8-BD56-2253DAE7DB60";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -470,8 +486,8 @@
 		63E9C2FA1750B50900AD2F69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradnesh Dange (QR9VEBNXJ6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Flowers (Q3C53A9BTF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John Flowers (Q3C53A9BTF)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -480,8 +496,8 @@
 				GCC_PREFIX_HEADER = "Keynetic/Keynetic-Prefix.pch";
 				INFOPLIST_FILE = "Keynetic/Keynetic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25C40EA4-4E0D-47EE-AB14-3BB513E00183";
+				PROVISIONING_PROFILE = "36A81D02-0121-45DC-AF79-954E498188FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "383C6B00-1A50-41E8-BD56-2253DAE7DB60";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

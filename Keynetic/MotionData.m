@@ -32,11 +32,10 @@
     return self;
 }
 
--(void)generateVelAndPosData{
-    
-}
+
 
 +(BOOL)saveMotionData:(MotionData*)mtData{
+    
     @try {
         //save to accounts.plist
         [mtData._accPoints writeToFile:[self filepath] atomically:YES];
