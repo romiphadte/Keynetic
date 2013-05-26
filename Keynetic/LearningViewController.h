@@ -13,6 +13,8 @@
 @interface LearningViewController :UIViewController <UIAccelerometerDelegate>{
     UIAccelerometer *_accelerometer;
     MotionData *_mtData;
+    float accelX, accelY, accelZ;
+    float x,y,z, vx, vy, vz;
 }
 
 @property (nonatomic, retain) UIAccelerometer *_accelerometer;

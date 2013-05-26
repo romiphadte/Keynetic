@@ -35,7 +35,7 @@
 -(void)generateVelAndPosData{
     int counter = 0;
     for(int i = 0; i < self._accPoints.count; i++){
-        float time = i * 0.01;
+        float time = 0.1;
         
         //acc points
         NSDictionary* dict = [self._accPoints objectAtIndex:i];
